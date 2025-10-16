@@ -1,4 +1,4 @@
-import desktopConfig from "lighthouse/core/config/desktop-config.js";
+import { desktopConfig } from "lighthouse";
 
 console.log(desktopConfig);
 console.log("exit");
