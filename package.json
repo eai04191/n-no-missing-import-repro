@@ -1,0 +1,22 @@
+{
+  "name": "n-no-missing-import-repro",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@types/node": "^24.7.2",
+    "eslint": "^9.37.0",
+    "eslint-plugin-n": "^17.23.1",
+    "lighthouse": "^13.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0"
+  },
+  "scripts": {
+    "lighthouse-js": "node scripts/lighthouse-js.js",
+    "lighthouse-ts": "node --experimental-strip-types scripts/lighthouse-ts.ts",
+    "lint": "eslint ."
+  },
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=22.16.0"
+  }
+}
